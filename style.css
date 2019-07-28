@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body{
+    height: 100%;
+}
+
+#img-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+#img{
+    background-image: url('img/hellcat.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.info-car{
+    height: 35%;
+    width: 600px;
+    left: 30px;
+    z-index: 3;
+    position: absolute;
+    top: 29px;
+    background: linear-gradient(to right,#000,transparent);
+}
+.header-info{
+    display: flex;
+    align-items: center;
+}
+.header-info div img{
+    width: 150px;
+    height: 20px;
+    margin: 5px;
+}
